@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BudgetEntity" representedClassName=".BudgetEntity" syncable="YES">
+        <attribute name="budgetId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nameBudget" optional="YES" attributeType="String"/>
+        <attribute name="userEmailBudget" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ExpenseEntity" representedClassName=".ExpenseEntity" syncable="YES">
+        <attribute name="budgetId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expenseCategory" optional="YES" attributeType="String"/>
+        <attribute name="expenseDate" optional="YES" attributeType="String"/>
+        <attribute name="expenseMount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="expenseName" optional="YES" attributeType="String"/>
+        <attribute name="idExpense" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userEmailExpense" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="IncomeEntity" representedClassName=".IncomeEntity" syncable="YES">
+        <attribute name="budgetId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idIncome" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="incomeCategory" optional="YES" attributeType="String"/>
+        <attribute name="incomeDate" optional="YES" attributeType="String"/>
+        <attribute name="incomeMount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="incomeName" optional="YES" attributeType="String"/>
+        <attribute name="userEmailIncome" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ReminderEntity" representedClassName=".ReminderEntity" syncable="YES">
+        <attribute name="hour" optional="YES" attributeType="String"/>
+        <attribute name="reminderCategory" optional="YES" attributeType="String"/>
+        <attribute name="reminderDate" optional="YES" attributeType="String"/>
+        <attribute name="reminderId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reminderMount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reminderTitle" optional="YES" attributeType="String"/>
+        <attribute name="userEmailReminder" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TotalsEntity" representedClassName=".TotalsEntity" syncable="YES">
+        <attribute name="balanceTotal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="budgetId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idTotal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalExpense" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="totalIncome" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userEmailTotal" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserEntity" representedClassName=".UserEntity" syncable="YES">
+        <attribute name="userEmail" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userKey" optional="YES" attributeType="String"/>
+        <attribute name="userLastName" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userNickname" optional="YES" attributeType="String"/>
+        <attribute name="userSex" optional="YES" attributeType="String"/>
+    </entity>
+</model>

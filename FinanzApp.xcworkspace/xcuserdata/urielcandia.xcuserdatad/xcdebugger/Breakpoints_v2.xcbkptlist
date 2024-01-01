@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8AB2725B-1F01-41B3-89B7-CDDDFB5D62D2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3A922D5-3260-459B-A5DE-E87858176E9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanzApp/Movements/MovementsExpense/ExpenseMovementsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47F78138-9546-42A8-94A5-8DA4C8E1AB2B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanzApp/Reminder/ReminderCell/ReminderTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "setSelected(_:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05AD6CFA-C856-41B2-9110-D48F970D598D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanzApp/Movements/MovementsExpense/UpdateExpenseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "UpdateExpenseViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "05AD6CFA-C856-41B2-9110-D48F970D598D - 5351486525e874a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanzApp.UpdateExpenseViewController.categoryExpensePicker.getter : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "FinanzApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urielcandia/Documents/FinanzApp/FinanzApp/Movements/MovementsExpense/UpdateExpenseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "05AD6CFA-C856-41B2-9110-D48F970D598D - 24bb54fce37eb916"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanzApp.UpdateExpenseViewController.categoryExpensePicker.setter : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "FinanzApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urielcandia/Documents/FinanzApp/FinanzApp/Movements/MovementsExpense/UpdateExpenseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "05AD6CFA-C856-41B2-9110-D48F970D598D - 3b93f7c5558935d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanzApp.UpdateExpenseViewController.categoryExpensePicker.modify : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "FinanzApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urielcandia/Documents/FinanzApp/FinanzApp/Movements/MovementsExpense/UpdateExpenseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "05AD6CFA-C856-41B2-9110-D48F970D598D - 91c283cb9d2080e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanzApp.UpdateExpenseViewController.categoryExpensePicker.modify : Swift.Optional&lt;__C.UIPickerView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FinanzApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urielcandia/Documents/FinanzApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "05AD6CFA-C856-41B2-9110-D48F970D598D - 2d7b66cb96783f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanzApp.UpdateExpenseViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FinanzApp.UpdateExpenseViewController"
+                  moduleName = "FinanzApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urielcandia/Documents/FinanzApp/FinanzApp/Movements/MovementsExpense/UpdateExpenseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "286">
+               </Location>
+               <Location
+                  uuid = "05AD6CFA-C856-41B2-9110-D48F970D598D - 815ffd727d4c4b90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanzApp.UpdateExpenseViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FinanzApp.UpdateExpenseViewController&gt;"
+                  moduleName = "FinanzApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urielcandia/Documents/FinanzApp/FinanzApp/Movements/MovementsExpense/UpdateExpenseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Advice1ViewController" customModule="FinanzApp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vE7-M4-RRd" customClass="CardView" customModule="FinanzApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="67" width="361" height="120"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bombilla" translatesAutoresizingMaskIntoConstraints="NO" id="5nV-Xq-fSr">
+                            <rect key="frame" x="8" y="8" width="26" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="26" id="PQH-5O-6mY"/>
+                                <constraint firstAttribute="height" constant="26" id="oRa-j1-YD7"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consejo del dia:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxc-6W-Bbk">
+                            <rect key="frame" x="42" y="14" width="209" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="9D0-un-MAL"/>
+                                <constraint firstAttribute="width" constant="209" id="qvY-27-fI4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7q3-we-wBx">
+                            <rect key="frame" x="23" y="37" width="314" height="69"/>
+                            <color key="backgroundColor" name="backgroundCard"/>
+                            <string key="text">Ahorra. Procura que sea una cantidad fija y no sólo lo que te sobre en la semana, un buen ahorro es la base para lograr una inversión que te permitirá multiplicar tu dinero a futuro.</string>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="7q3-we-wBx" firstAttribute="top" secondItem="5nV-Xq-fSr" secondAttribute="bottom" constant="3" id="3hT-Np-aci"/>
+                        <constraint firstItem="7q3-we-wBx" firstAttribute="leading" secondItem="vE7-M4-RRd" secondAttribute="leading" constant="23" id="9HK-ty-tP3"/>
+                        <constraint firstAttribute="trailing" secondItem="yxc-6W-Bbk" secondAttribute="trailing" constant="110" id="GpQ-Ou-CUz"/>
+                        <constraint firstAttribute="trailing" secondItem="7q3-we-wBx" secondAttribute="trailing" constant="24" id="JgP-fm-Xcz"/>
+                        <constraint firstAttribute="height" constant="120" id="QWs-Qc-ViO"/>
+                        <constraint firstAttribute="bottom" secondItem="7q3-we-wBx" secondAttribute="bottom" constant="14" id="Wug-Fo-oRt"/>
+                        <constraint firstItem="yxc-6W-Bbk" firstAttribute="leading" secondItem="5nV-Xq-fSr" secondAttribute="trailing" constant="8" symbolic="YES" id="dB3-ev-Y98"/>
+                        <constraint firstItem="yxc-6W-Bbk" firstAttribute="top" secondItem="vE7-M4-RRd" secondAttribute="top" constant="14" id="dEO-xX-kA7"/>
+                        <constraint firstItem="5nV-Xq-fSr" firstAttribute="leading" secondItem="vE7-M4-RRd" secondAttribute="leading" constant="8" id="fJo-JW-51D"/>
+                        <constraint firstItem="5nV-Xq-fSr" firstAttribute="top" secondItem="vE7-M4-RRd" secondAttribute="top" constant="8" id="jCx-1S-nbr"/>
+                        <constraint firstItem="yxc-6W-Bbk" firstAttribute="leading" secondItem="5nV-Xq-fSr" secondAttribute="trailing" constant="8" symbolic="YES" id="wdX-Cl-GJk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="backgroundColor"/>
+            <constraints>
+                <constraint firstItem="vE7-M4-RRd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="2v9-OS-a8Q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vE7-M4-RRd" secondAttribute="trailing" constant="16" id="fAL-sk-sNP"/>
+                <constraint firstItem="vE7-M4-RRd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="o7Y-oa-fco"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bombilla" width="512" height="512"/>
+        <namedColor name="backgroundCard">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="backgroundColor">
+            <color red="0.93300002813339233" green="0.93300002813339233" blue="0.93300002813339233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
